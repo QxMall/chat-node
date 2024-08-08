@@ -1,0 +1,37 @@
+{
+  "apps": {
+    "name": "chat-node",
+    "script": "node ./server.js",
+    "env": {
+      "PORT": 3000,
+      "NODE_ENV": "development",
+      "ALIBABA_API_KEY": "sk-9a17bca62f2045f6887f69bb5086cc30",
+      "BAIDU_API_KEY": "E9iFLraYQeurz1cJf4AnoE30",
+      "BAIDU_SECRET_KEY": "szFTdFGSlEUeECln4mZo94mEj9HPS1s4",
+      "QIANFAN_ACCESS_KEY": "E9iFLraYQeurz1cJf4AnoE30",
+      "QIANFAN_SECRET_KEY": "szFTdFGSlEUeECln4mZo94mEj9HPS1s4",
+      "PROFILE_PATH": "/var/www/image-files",
+      "DATABASE_PASSWORD": "LuoYao.5731",
+      "TOKEN_SECRET": "qxmallapichatnodepro",
+      "DEEP_SEEK_API_KEY": "sk-3790ce05241a442491ce2aacd9eeb3be",
+      "DEEP_SEEK_BASE_URL": "https://api.deepseek.com/v1"
+    },
+    "env_production": {
+      "PORT": 3000,
+      "NODE_ENV": "production",
+      "ALIBABA_API_KEY": "sk-9a17bca62f2045f6887f69bb5086cc30",
+      "BAIDU_API_KEY": "E9iFLraYQeurz1cJf4AnoE30",
+      "BAIDU_SECRET_KEY": "szFTdFGSlEUeECln4mZo94mEj9HPS1s4",
+      "QIANFAN_ACCESS_KEY": "E9iFLraYQeurz1cJf4AnoE30",
+      "QIANFAN_SECRET_KEY": "szFTdFGSlEUeECln4mZo94mEj9HPS1s4",
+      "PROFILE_PATH": "/var/www/image-files",
+      "DATABASE_PASSWORD": "LuoYao.5731",
+      "TOKEN_SECRET": "qxmallapichatnodepro",
+      "DEEP_SEEK_API_KEY": "sk-3790ce05241a442491ce2aacd9eeb3be",
+      "DEEP_SEEK_BASE_URL": "https://api.deepseek.com/v1"
+    },
+    "args": [
+      
+    ]
+  }
+}
